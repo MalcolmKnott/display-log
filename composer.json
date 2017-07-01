@@ -1,0 +1,17 @@
+{
+    "name": "malcolmknott/displaylog",
+    "description": "Read and display contents of laravel log file",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Malcolm Knott",
+            "email": "malcolm.knott@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Malcolmknott\\Displaylog\\": "src"
+        }
+    },
+    "require": {}
+}
