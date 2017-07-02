@@ -18,6 +18,15 @@ Next, if using Laravel 5, include the service provider within your `config/app.p
 ];
 ```
 
+Add this driver to your `config/filesystems.php` file.
+
+```php
+'storage' => [
+    'driver' => 'local',
+    'root' => storage_path(),
+]
+```
+
 If you have a new project scaffold the basic login and registration views to pull in Boostrap.
 Or publish the view file to use your own layout.
 
