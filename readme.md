@@ -33,12 +33,6 @@ Publish the view file to change the format and add your own style.
 php artisan vendor:publish --provider="Malcolmknott\Displaylog\DisplayLogServiceProvider" --tag="views"
 ```
 
-<!-- ## Configuration
-
-```bash
-php artisan vendor:publish --provider="Malcolmknott\Displaylog\DisplayLogServiceProvider" --tag="config"
-``` -->
-
 ## Usage
 
 Add a route that points to the Display Log Controller, you'll probably want to add some middleware to restrict who can view your log.
